@@ -1,0 +1,10 @@
+torch
+torchvision
+medmnist
+flwr
+numpy
+opacus
+streamlit
+pillow
+tqdm
+opencv-python
