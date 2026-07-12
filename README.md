@@ -4,12 +4,12 @@
 
 Traditional medical AI requires centralizing sensitive patient data, risking privacy breaches. SecureMed-FL solves this by training models locally at each institution and aggregating only mathematical updates (weights) via **FedAvg**, ensuring absolute compliance with **GDPR** and **HIPAA**.
 
-> 🚨 **IMPORTANT NOTE:** > Due to GitHub's file size limits, large dataset and evaluation folders (**`uploads/`** and **`server_test_data/`**) could not be uploaded directly to this repository. They are safely hosted on Google Drive. 
-> 🔗 **[CLICK HERE TO DOWNLOAD THE LARGE FILES FROM GOOGLE DRIVE](https://drive.google.com/drive/folders/1KflYhnzGMdp07ICxYE55Y-k6UT5xHUO6)**
+>  **IMPORTANT NOTE:** > Due to GitHub's file size limits, large dataset and evaluation folders (**`uploads/`** and **`server_test_data/`**) could not be uploaded directly to this repository. They are safely hosted on Google Drive. 
+>  **[CLICK HERE TO DOWNLOAD THE LARGE FILES FROM GOOGLE DRIVE](https://drive.google.com/drive/folders/1KflYhnzGMdp07ICxYE55Y-k6UT5xHUO6)**
 > > *(Download and extract these folders into the root directory of this project before running the simulation. Note: `venv/` is excluded as per Git best practices).*
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Core Engine:** Python, PyTorch
 * **Federated Learning Framework:** Flower (FLWR)
@@ -19,7 +19,7 @@ Traditional medical AI requires centralizing sensitive patient data, risking pri
 
 ---
 
-## 📂 Core Architecture
+##  Core Architecture
 
 * **`setup_data.py`**: Downloads and splits the MedMNIST dataset into separate "Hospital" folders to simulate isolated silos.
 * **`global_model/model.py`**: Contains the core AutoEncoder Neural Network structure.
@@ -29,7 +29,7 @@ Traditional medical AI requires centralizing sensitive patient data, risking pri
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Installation
 Clone the repository and install the required dependencies:
@@ -69,7 +69,7 @@ python visualization_results.py
 
 ---
 
-## 📊 Benchmark Evaluation
+##  Benchmark Evaluation
 
 The framework evaluates image reconstruction precision using **Mean Squared Error (MSE)**.
 
@@ -80,7 +80,7 @@ The framework evaluates image reconstruction precision using **Mean Squared Erro
 
 ---
 
-## 🔒 Security Summary
+##  Security Summary
 
 * **Zero-Data Transfer:** Raw biomedical image pixels are never shared or transmitted over the network.
 * **gRPC Encryption:** Flower passes abstract weight tensors over secure communication channels, minimizing data leak surfaces.
