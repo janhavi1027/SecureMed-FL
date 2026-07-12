@@ -4,6 +4,9 @@
 
 Traditional medical AI requires centralizing sensitive patient data, risking privacy breaches. SecureMed-FL solves this by training models locally at each institution and aggregating only mathematical updates (weights) via **FedAvg**, ensuring absolute compliance with **GDPR** and **HIPAA**.
 
+> 🚨 **IMPORTANT NOTE:** > Due to GitHub's file size limits, large dataset and evaluation folders (**`uploads/`** and **`server_test_data/`**) could not be uploaded directly to this repository. They are safely hosted on Google Drive. 
+> 🔗 **[CLICK HERE TO DOWNLOAD THE LARGE FILES FROM GOOGLE DRIVE](https://drive.google.com/drive/folders/1KflYhnzGMdp07ICxYE55Y-k6UT5xHUO6)**
+> > *(Download and extract these folders into the root directory of this project before running the simulation. Note: `venv/` is excluded as per Git best practices).*
 ---
 
 ## 🛠️ Tech Stack
