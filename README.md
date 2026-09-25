@@ -4,7 +4,7 @@
 
 ---
 
-🌐 **Live Interactive Dashboard:** [securemed-fl.streamlit.app](https://securemed-fl.streamlit.app/)
+🌐 **Live Application:** [securemed-fl.streamlit.app](https://securemed-fl.streamlit.app/)
 
 ---
 
